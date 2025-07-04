@@ -43,7 +43,13 @@ export default function Navigation() {
             ))}
           </div>
 
-          <Button className="hidden md:block bg-blue-600 hover:bg-blue-700 text-white">Book Now</Button>
+          <a 
+            href="https://app.squareup.com/appointments/book/vubh3j0ph1po97/LEJNWFZATAZ7V/start" 
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+            <Button className="hidden md:block bg-blue-600 hover:bg-blue-700 text-white">Book Now</Button>
+          </a>
 
           {/* Mobile menu button */}
           <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
@@ -68,7 +74,13 @@ export default function Navigation() {
                   {item.name}
                 </Link>
               ))}
-              <Button className="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white">Book Now</Button>
+              <a 
+                href="https://app.squareup.com/appointments/book/vubh3j0ph1po97/LEJNWFZATAZ7V/start" 
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <Button className="w-full mt-4 bg-blue-600 hover:bg-blue-700 text-white">Book Now</Button>
+              </a>
             </div>
           </div>
         )}
