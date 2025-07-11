@@ -19,7 +19,7 @@ const galleryImages = [
     id: 2,
     title: "Ford F-150 Headlight Restoration",
     before: "/Cow Before 1.JPG",
-    after: "/Cow After 1.jpg",
+    after: "/Cow After 1.JPG",
     service: "The Casita",
     description: "Professional headlight restoration removing years of oxidation and yellowing, restoring crystal clear visibility and modern appearance",
   },
