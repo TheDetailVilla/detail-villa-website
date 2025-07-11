@@ -17,6 +17,14 @@ const galleryImages = [
   },
   {
     id: 2,
+    title: "Ford F-150 Headlight Restoration",
+    before: "/Cow Before 1.JPG",
+    after: "/Cow After 1.jpg",
+    service: "The Casita",
+    description: "Professional headlight restoration removing years of oxidation and yellowing, restoring crystal clear visibility and modern appearance",
+  },
+  {
+    id: 3,
     title: "Mercedes-Benz GLE - Interior Detail",
     before: "/placeholder.svg?height=300&width=400&text=Before",
     after: "/placeholder.svg?height=300&width=400&text=After",
@@ -24,7 +32,7 @@ const galleryImages = [
     description: "Deep interior cleaning and leather conditioning",
   },
   {
-    id: 3,
+    id: 4,
     title: "Tesla Model S - Ceramic Coating",
     before: "/placeholder.svg?height=300&width=400&text=Before",
     after: "/placeholder.svg?height=300&width=400&text=After",
@@ -32,7 +40,7 @@ const galleryImages = [
     description: "Professional ceramic coating application for long-lasting protection",
   },
   {
-    id: 4,
+    id: 5,
     title: "Porsche 911 - Paint Correction",
     before: "/placeholder.svg?height=300&width=400&text=Before",
     after: "/placeholder.svg?height=300&width=400&text=After",
@@ -40,20 +48,12 @@ const galleryImages = [
     description: "Multi-stage paint correction removing years of swirl marks",
   },
   {
-    id: 5,
+    id: 6,
     title: "Range Rover Sport - Full Detail",
     before: "/placeholder.svg?height=300&width=400&text=Before",
     after: "/placeholder.svg?height=300&width=400&text=After",
     service: "The Estate Elegance",
     description: "Complete interior and exterior transformation",
-  },
-  {
-    id: 6,
-    title: "Audi Q7 - Maintenance Detail",
-    before: "/placeholder.svg?height=300&width=400&text=Before",
-    after: "/placeholder.svg?height=300&width=400&text=After",
-    service: "Maintenance Detail",
-    description: "Regular maintenance keeping the vehicle in pristine condition",
   },
 ]
 
